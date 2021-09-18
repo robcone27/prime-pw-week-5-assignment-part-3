@@ -40,7 +40,14 @@ for(let i in collection) {
 if(artist === collection[i].artist){
   found.push(collection[i]);
   }
- } return console.log('albums found: ', found.length, found);
+} return console.log('artist found: ', found.length, found);
 };
 
 findByArtist('Metallica');
+//9.17
+// this runs the search loop
+console.log(test);
+console.log(test);
+console.log(test);
+console.log(test);
+console.log(test);
