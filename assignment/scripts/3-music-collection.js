@@ -18,13 +18,9 @@ addToCollection( 'The World Is Yours', 'Nas', 1993 );
 addToCollection( 'Black Ice', 'Goodie Mob', 2007 );
 addToCollection( 'Kick In The Door', 'Notorious BIG', 1997 );
 
+
 console.log(collection);
 
-// console.log(collection[0].title);
-
-// for( let i = 0; i < collection.length; i++) {
-// console.log(collection[i].title);
-// }
 
 function showCollection(albums){
   for( let i = 0; i < albums.length; i++) {
@@ -42,12 +38,5 @@ if(artist === collection[i].artist){
   }
 } return console.log('artist found: ', found.length, found);
 };
-
-findByArtist('Metallica');
-//9.17
-// this runs the search loop
-console.log(test);
-console.log(test);
-console.log(test);
-console.log(test);
-console.log(test);
+console.log('Artist Search');
+findByArtist('After The Burial');
